@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sty{
+    width: 500px; 
+    height: 200px;
+}
+
+.styl{
+    height: fit-content;
+    width: 300px;
+}
+
+nav{
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.upcoming {
+    width: 85px;
+    height: 27px;
+}
+
+.section0{
+    position: relative;
+    top: 50px;
+}
+
+.anyhr{  
+    width: 15%;
+}
+
+img{
+    width: 85%;
+}
+
+.pic1{
+    width: 85%;
+}
+.sec1{
+    width: 60%;
+}
+.sec2{
+    width: 100%;
+}
+.section1{
+    background-color: aquamarine;
+    position: relative;
+    top: 80px;
+}
+.section2{
+    position: relative;
+    top: 80px;
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.starter-btn{
+    background-color: rgb(40, 26, 54);
+    color: rgb(123, 241, 205);
+    width: 125px;
+    height: 50px;
+}
+
+.pic2{
+    background-color: rgb(194, 244, 237);
+    height: 65%;
+    width: 95%;
+}
+
+.starter_card{
+    width: 400px;
+    background-color: rgb(41, 41, 163);
+}
+
+.games_sec {
+    background-color: rgb(142, 142, 237);
+}
+
+.upsolve {
+    background-color: rgb(122, 122, 204);
+}
+
+.contest {
+    background: rgb(130, 152, 224);
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.proplanbtn{
+    background-color: rgb(98, 34, 14);
+    color: white;
+}
+
+.section3{
+    background-color: rgb(237, 231, 222);
+    position: relative;
+    top: 70px;
+}
+
+.section4{
+    background-color: rgb(226, 224, 219);
+    position: relative;
+    top: 70px;
+}
+
+.section5{
+    background-color: rgb(42, 42, 57);
+    color: white;
+    position: relative;
+    top: 70px;
+}
+
+.section6
+{
+    position: relative;
+    top: 80px;
+}
+
+.card_sty{
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+}
+
+.learnsection{
+    background-color: rgb(12, 12, 46);
+    color: white;
+}
+
+.tohover:hover{
+    transform: scaleY(1.05);
+    transition: 0.2s;
+    box-shadow: rgb(30, 24, 68);
+    cursor: pointer;
+}
+
+.card{
+    cursor: pointer;
+}
+
+@media screen and (max-width : 380px) {
+
+    .carous{
+        flex-direction: column;
+    }
+
+    .sectiondiv{
+        flex-direction: column;
+    }
+
+    .carimg{
+        width: 380px;
+        height: auto;
+    }
+}

@@ -1,0 +1,30 @@
+.siz{
+    font-size:small;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.con{
+    margin-top: 15px;
+    /* margin-left: 50%; */
+}
+.for-you-div{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+.e-card-horizontal  {
+    margin: auto;
+    width: inherit;
+}
+
+.e-card-stacked  {
+    justify-content: flex-start;
+    margin: initial;
+}
+.gblog{
+    color: rgb(47, 141, 70);
+}
